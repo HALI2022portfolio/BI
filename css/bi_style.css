@@ -1,0 +1,36 @@
+@charset="utf-8";
+*{margin:0;padding:0;}
+body{
+background-color:#a7d0ca;
+}
+body div:nth-child(1) img,
+body div:nth-child(2) img,
+body div:nth-child(3) img,
+body div:nth-child(4) img,
+body div:nth-child(5) img,
+body div:nth-child(6) img,
+body div:nth-child(7) img,
+body div:nth-child(8) img{
+  width: 1320px;
+  margin:0 auto;
+  display: block;
+}
+.fixed{
+  width: 53px;
+  height: 255px;
+  margin-bottom: 20px;
+  position: fixed;
+  right:100px;
+  bottom:100px;
+}
+.fixed:hover{
+  opacity: 0.8;
+}
+.fixed2{
+  position: fixed;
+  right:100px;
+  bottom:40px;
+}
+.fixed2:hover{
+  opacity:0.8;
+}
